@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2170905013E23E2F97C659CD /* libPods-FoldAndSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD23ED42559E4A3F863A42A1 /* libPods-FoldAndSearch.a */; };
 		643A3A601E7B7A9C00DF89CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A3A5F1E7B7A9C00DF89CF /* main.m */; };
 		643A3A631E7B7A9C00DF89CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A3A621E7B7A9C00DF89CF /* AppDelegate.m */; };
 		643A3A661E7B7A9C00DF89CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A3A651E7B7A9C00DF89CF /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		643A3A6E1E7B7A9C00DF89CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643A3A6C1E7B7A9C00DF89CF /* LaunchScreen.storyboard */; };
 		643A3A791E7B7A9C00DF89CF /* FoldAndSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A3A781E7B7A9C00DF89CF /* FoldAndSearchTests.m */; };
 		643A3A841E7B7A9C00DF89CF /* FoldAndSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A3A831E7B7A9C00DF89CF /* FoldAndSearchUITests.m */; };
+		643A3A941E7B8D0D00DF89CF /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A3A931E7B8D0D00DF89CF /* SearchViewController.m */; };
+		643A3A991E7B8E0B00DF89CF /* FoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643A3A981E7B8E0B00DF89CF /* FoldViewController.m */; };
+		647F7FF21E7D189A008CC578 /* XDMultTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F7FF11E7D189A008CC578 /* XDMultTableView.m */; };
+		647F7FF51E7D2A0B008CC578 /* AddressThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F7FF41E7D2A0B008CC578 /* AddressThreeView.m */; };
+		647F7FF81E7D2A2C008CC578 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F7FF71E7D2A2C008CC578 /* HttpService.m */; };
+		647F7FFB1E7D2A95008CC578 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 647F7FFA1E7D2A95008CC578 /* AddressModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B282317066EA98AB8B37531 /* Pods-FoldAndSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldAndSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoldAndSearch/Pods-FoldAndSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		643A3A5B1E7B7A9C00DF89CF /* FoldAndSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldAndSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643A3A5F1E7B7A9C00DF89CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		643A3A611E7B7A9C00DF89CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,20 @@
 		643A3A7F1E7B7A9C00DF89CF /* FoldAndSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldAndSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		643A3A831E7B7A9C00DF89CF /* FoldAndSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldAndSearchUITests.m; sourceTree = "<group>"; };
 		643A3A851E7B7A9C00DF89CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643A3A921E7B8D0D00DF89CF /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		643A3A931E7B8D0D00DF89CF /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		643A3A971E7B8E0B00DF89CF /* FoldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldViewController.h; sourceTree = "<group>"; };
+		643A3A981E7B8E0B00DF89CF /* FoldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldViewController.m; sourceTree = "<group>"; };
+		647F7FF01E7D189A008CC578 /* XDMultTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDMultTableView.h; sourceTree = "<group>"; };
+		647F7FF11E7D189A008CC578 /* XDMultTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDMultTableView.m; sourceTree = "<group>"; };
+		647F7FF31E7D2A0B008CC578 /* AddressThreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressThreeView.h; sourceTree = "<group>"; };
+		647F7FF41E7D2A0B008CC578 /* AddressThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressThreeView.m; sourceTree = "<group>"; };
+		647F7FF61E7D2A2C008CC578 /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService.h; sourceTree = "<group>"; };
+		647F7FF71E7D2A2C008CC578 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
+		647F7FF91E7D2A95008CC578 /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		647F7FFA1E7D2A95008CC578 /* AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		9BEACCACABAB441B12EEFADA /* Pods-FoldAndSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoldAndSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoldAndSearch/Pods-FoldAndSearch.release.xcconfig"; sourceTree = "<group>"; };
+		DD23ED42559E4A3F863A42A1 /* libPods-FoldAndSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoldAndSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2170905013E23E2F97C659CD /* libPods-FoldAndSearch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				643A3A771E7B7A9C00DF89CF /* FoldAndSearchTests */,
 				643A3A821E7B7A9C00DF89CF /* FoldAndSearchUITests */,
 				643A3A5C1E7B7A9C00DF89CF /* Products */,
+				B9CA01F4E2D78238DB9AA16E /* Pods */,
+				FE56082FA4644F5DB4C04C99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +130,9 @@
 				643A3A621E7B7A9C00DF89CF /* AppDelegate.m */,
 				643A3A641E7B7A9C00DF89CF /* ViewController.h */,
 				643A3A651E7B7A9C00DF89CF /* ViewController.m */,
+				643A3A961E7B8DC800DF89CF /* 三级地址选择 */,
+				643A3A951E7B8DB600DF89CF /* 二级折叠 */,
+				643A3A911E7B8CE600DF89CF /* 索引搜索 */,
 				643A3A671E7B7A9C00DF89CF /* Main.storyboard */,
 				643A3A6A1E7B7A9C00DF89CF /* Assets.xcassets */,
 				643A3A6C1E7B7A9C00DF89CF /* LaunchScreen.storyboard */,
@@ -140,6 +168,56 @@
 			path = FoldAndSearchUITests;
 			sourceTree = "<group>";
 		};
+		643A3A911E7B8CE600DF89CF /* 索引搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				643A3A921E7B8D0D00DF89CF /* SearchViewController.h */,
+				643A3A931E7B8D0D00DF89CF /* SearchViewController.m */,
+			);
+			name = "索引搜索";
+			sourceTree = "<group>";
+		};
+		643A3A951E7B8DB600DF89CF /* 二级折叠 */ = {
+			isa = PBXGroup;
+			children = (
+				647F7FF01E7D189A008CC578 /* XDMultTableView.h */,
+				647F7FF11E7D189A008CC578 /* XDMultTableView.m */,
+				643A3A971E7B8E0B00DF89CF /* FoldViewController.h */,
+				643A3A981E7B8E0B00DF89CF /* FoldViewController.m */,
+			);
+			name = "二级折叠";
+			sourceTree = "<group>";
+		};
+		643A3A961E7B8DC800DF89CF /* 三级地址选择 */ = {
+			isa = PBXGroup;
+			children = (
+				647F7FF91E7D2A95008CC578 /* AddressModel.h */,
+				647F7FFA1E7D2A95008CC578 /* AddressModel.m */,
+				647F7FF61E7D2A2C008CC578 /* HttpService.h */,
+				647F7FF71E7D2A2C008CC578 /* HttpService.m */,
+				647F7FF31E7D2A0B008CC578 /* AddressThreeView.h */,
+				647F7FF41E7D2A0B008CC578 /* AddressThreeView.m */,
+			);
+			name = "三级地址选择";
+			sourceTree = "<group>";
+		};
+		B9CA01F4E2D78238DB9AA16E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B282317066EA98AB8B37531 /* Pods-FoldAndSearch.debug.xcconfig */,
+				9BEACCACABAB441B12EEFADA /* Pods-FoldAndSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE56082FA4644F5DB4C04C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD23ED42559E4A3F863A42A1 /* libPods-FoldAndSearch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 643A3A881E7B7A9C00DF89CF /* Build configuration list for PBXNativeTarget "FoldAndSearch" */;
 			buildPhases = (
+				98B7B1167F2714375D64CDEE /* [CP] Check Pods Manifest.lock */,
 				643A3A571E7B7A9C00DF89CF /* Sources */,
 				643A3A581E7B7A9C00DF89CF /* Frameworks */,
 				643A3A591E7B7A9C00DF89CF /* Resources */,
+				D35A04774796CF1FAFDB5895 /* [CP] Embed Pods Frameworks */,
+				E346A445B1A40FEE61E0CE39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +352,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		98B7B1167F2714375D64CDEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D35A04774796CF1FAFDB5895 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldAndSearch/Pods-FoldAndSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E346A445B1A40FEE61E0CE39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoldAndSearch/Pods-FoldAndSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		643A3A571E7B7A9C00DF89CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647F7FFB1E7D2A95008CC578 /* AddressModel.m in Sources */,
+				647F7FF21E7D189A008CC578 /* XDMultTableView.m in Sources */,
 				643A3A661E7B7A9C00DF89CF /* ViewController.m in Sources */,
 				643A3A631E7B7A9C00DF89CF /* AppDelegate.m in Sources */,
+				643A3A941E7B8D0D00DF89CF /* SearchViewController.m in Sources */,
 				643A3A601E7B7A9C00DF89CF /* main.m in Sources */,
+				643A3A991E7B8E0B00DF89CF /* FoldViewController.m in Sources */,
+				647F7FF51E7D2A0B008CC578 /* AddressThreeView.m in Sources */,
+				647F7FF81E7D2A2C008CC578 /* HttpService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +558,7 @@
 		};
 		643A3A891E7B7A9C00DF89CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B282317066EA98AB8B37531 /* Pods-FoldAndSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8H87C9G5JK;
@@ -435,6 +571,7 @@
 		};
 		643A3A8A1E7B7A9C00DF89CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BEACCACABAB441B12EEFADA /* Pods-FoldAndSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8H87C9G5JK;
@@ -514,6 +651,7 @@
 				643A3A8A1E7B7A9C00DF89CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643A3A8B1E7B7A9C00DF89CF /* Build configuration list for PBXNativeTarget "FoldAndSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +660,7 @@
 				643A3A8D1E7B7A9C00DF89CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643A3A8E1E7B7A9C00DF89CF /* Build configuration list for PBXNativeTarget "FoldAndSearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +669,7 @@
 				643A3A901E7B7A9C00DF89CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
