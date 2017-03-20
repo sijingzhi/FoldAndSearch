@@ -41,7 +41,6 @@ section的数量
 
 
 ## 3、三级地址联动
-###### 从服务端获取数据
-// 地区类型 areaType   父类编号 parentAreaNo
+###### 从服务端获取数据 地区类型 areaType   父类编号 parentAreaNo
 - (void)getPickerData:(NSString*)areaType parentAreaNo:(NSString*)parentAreaNo
 ![三级地址](三级地址滚动.png)
