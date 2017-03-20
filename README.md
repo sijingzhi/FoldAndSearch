@@ -2,7 +2,7 @@
 # 索引搜索 二级折叠 三级地址选择   
 
 ## 1、根据首字母搜索列表
-###### 数据有点多 点击后请耐心等待
+###### 1）、数据有点多 点击后请耐心等待
 kindDic = [[NSMutableDictionary alloc]initWithCapacity:0];
 for (char i = 'A'; i <= 'Z'; i ++)
 {
@@ -10,7 +10,7 @@ for (char i = 'A'; i <= 'Z'; i ++)
        [kindDic setObject:arr forKey:[NSString stringWithFormat:@"%c",i]];
    }
     
-###### 根据数据进行分组
+###### 2）、根据数据进行分组
  for (char i = 'A'; i <= 'Z'; i ++)
 {
        NSMutableArray * arra = [kindDic objectForKey:[NSString stringWithFormat:@"%c",i]];
@@ -41,7 +41,7 @@ section的数量
 
 
 ## 3、三级地址联动
-######从服务端获取数据
+###### 从服务端获取数据
 // 地区类型 areaType   父类编号 parentAreaNo
 - (void)getPickerData:(NSString*)areaType parentAreaNo:(NSString*)parentAreaNo
 ![三级地址](三级地址滚动.png)
